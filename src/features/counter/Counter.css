@@ -1,0 +1,126 @@
+.counter-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .count-display {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .increment-button,
+  .decrement-button
+  {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+.add-amount-button,
+.reset-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+  
+  .increment-button:hover,
+  .decrement-button:hover,
+  .add-amount-button:hover,
+  .reset-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .input-field {
+    font-size: 18px;
+    padding: 8px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+
+  .head{
+    background-color: rgb(19, 50, 82);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 36px;
+    margin-top: 0px;
+  }
+  
+  .footer {
+    background-color: rgb(19, 50, 82);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  /* Copyright text style */
+  .copyright {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* GitHub link style */
+  .github-link {
+    color: #6db2e4;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  
+  /* GitHub icon style */
+  .github-icon {
+    width: 20px;
+    vertical-align: middle;
+  }
+  
+  /* Copyright symbol style */
+  .copyright-symbol::before {
+    content: "\00a9";
+  }
+  
+  /* Social media icon style (for demonstration) */
+  .social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #6db2e4;
+  }
+  
+  
+  
+  
